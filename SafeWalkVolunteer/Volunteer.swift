@@ -12,6 +12,7 @@ protocol Volunteer: ObservableObject {
     var maxHours: Int { get }
 }
 
+
 // TODO: Create a class called SafeWalkVolunteer that implementes the Volunteer protocol.
 
 class SafeWalkVolunteer: Volunteer {
